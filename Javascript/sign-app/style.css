@@ -1,0 +1,41 @@
+body{
+    margin: 3%;
+    background-color: bisque;
+}
+
+.main
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top, .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box, input, select, button
+{
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.canvas
+{
+    
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.top>.box{
+    margin:8px;
+}
+
+.bottom>button
+{
+    margin: 8px;
+}
